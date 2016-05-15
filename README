@@ -1,0 +1,5 @@
+一键ssh免密码登陆，直接将本地主机~/.ssh/id_rsa.pub文件内容追加到远程主机~/.ssh/authorized_keys文件里，完成免密码认证；
+如果本地的id_rsa.pub文件不存在，则自动创建之；需要输入远程主机密码来访问远程主机。
+example:
+./authorized_keys ycqiu@192.168.0.1 
+./authorized_keys -p 10000 ycqiu@192.168.0.1  #指定ssh端口号
