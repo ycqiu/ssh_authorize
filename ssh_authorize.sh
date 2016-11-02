@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ $# -le 1 ]
+if [ $# -le 0 ]
 then
 	echo "usage: $0 [-p port] [user@]machine"
 	exit 1
